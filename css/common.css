@@ -25,14 +25,16 @@ img {
   margin-right: 90px;
   display: flex;
   flex-direction: column;
-  justify-content:space-between
+  justify-content:space-between;
+  min-height: 100%;
+  overflow-y: auto;
 }
 .frame .left_menu .logo {
   max-width: 90px;
 }
 .frame .left_menu .nav {
   display: block;
-  padding-bottom: 240px;
+  padding-bottom: 180px;
 }
 .frame .left_menu .nav a {
   display: block;
@@ -46,21 +48,35 @@ img {
 .frame .left_menu .nav a:hover {
   opacity: 0.8;
 }
-.frame .left_menu .copyright{
+.frame .left_menu .bottom{
   border-top: 2px solid #8d8d8d;
   padding-top: 40px;
+}
+.frame .left_menu .bottom .copyright{
   font-size: 1.35rem;
   color: #8d8d8d;
   font-weight: 600;
+  margin-bottom: 40px;
 }
-.frame .left_menu .copyright .company_en{
+.frame .left_menu .bottom .copyright .company_en{
   display: flex;
   justify-content: space-between;
   letter-spacing: 2px;
 }
-.frame .left_menu .copyright .company{
+.frame .left_menu .bottom .copyright .company{
   font-size: 1.15rem;
   letter-spacing: .5px;
+}
+.frame .left_menu .bottom .social{
+  display: flex;
+  font-size: 40px;
+}
+.frame .left_menu .bottom .social a{
+  color: #8d8d8d;
+  margin-right: 20px;
+}
+.frame .left_menu .bottom .social a:last-child{
+  margin-right: 0;
 }
 
 .frame .right_frame {
