@@ -4,6 +4,8 @@ html {
 body {
   margin: 0;
   position: relative;
+  font-family: '標楷體';
+  letter-spacing: 2px;
 }
 body.fixed {
   overflow: hidden;
@@ -16,16 +18,16 @@ img {
   max-width: 1515px;
   margin: 0 auto;
   display: flex;
-  padding-top: 120px;
+  padding-top: 150px;
   padding-bottom: 30px;
   height: 100vh;
 }
 .frame .left_menu {
   flex: 0 0 135px;
-  margin-right: 90px;
+  margin-right: 110px;
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   min-height: 100%;
   overflow-y: auto;
 }
@@ -34,11 +36,11 @@ img {
 }
 .frame .left_menu .nav {
   display: block;
-  padding-bottom: 180px;
+  padding-bottom: 150px;
 }
 .frame .left_menu .nav a {
   display: block;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: #000;
   font-weight: 600;
   padding: 10px 0;
@@ -48,34 +50,37 @@ img {
 .frame .left_menu .nav a:hover {
   opacity: 0.8;
 }
-.frame .left_menu .bottom{
+.frame .left_menu .bottom {
   border-top: 2px solid #8d8d8d;
   padding-top: 40px;
 }
-.frame .left_menu .bottom .copyright{
+.frame .left_menu .bottom .copyright {
   font-size: 1.35rem;
   color: #8d8d8d;
   font-weight: 600;
   margin-bottom: 40px;
 }
-.frame .left_menu .bottom .copyright .company_en{
+.frame .left_menu .bottom .copyright .company_en {
   display: flex;
   justify-content: space-between;
   letter-spacing: 2px;
 }
-.frame .left_menu .bottom .copyright .company{
+.frame .left_menu .bottom .copyright .company {
   font-size: 1.15rem;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
-.frame .left_menu .bottom .social{
+.frame .left_menu .bottom .social {
   display: flex;
   font-size: 40px;
 }
-.frame .left_menu .bottom .social a{
+.frame .left_menu .bottom .social a {
   color: #8d8d8d;
   margin-right: 20px;
 }
-.frame .left_menu .bottom .social a:last-child{
+.frame .left_menu .bottom .social a:hover {
+  opacity: 0.8;
+}
+.frame .left_menu .bottom .social a:last-child {
   margin-right: 0;
 }
 
@@ -86,9 +91,9 @@ img {
   overflow-y: auto;
 }
 .frame .right_frame::-webkit-scrollbar {
-  width: 5px;
+  width: 4px;
 }
-.frame .right_frame::-webkit-scrollbar-thumb{
+.frame .right_frame::-webkit-scrollbar-thumb {
   background: #8d8d8d;
   border-radius: 10px;
 }
