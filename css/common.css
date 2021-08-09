@@ -34,6 +34,9 @@ img {
 .frame .left_menu .logo {
   max-width: 90px;
 }
+.frame .left_menu .nav_btn {
+  display: none;
+}
 .frame .left_menu .nav {
   display: block;
   padding-bottom: 140px;
@@ -97,13 +100,129 @@ img {
   background: #8d8d8d;
   border-radius: 10px;
 }
+
+footer {
+  display: none;
+}
+footer .copyright {
+  border-top: 1px solid #8d8d8d;
+  padding-top: 20px;
+  font-size: 1rem;
+  color: #8d8d8d;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+footer .copyright .company {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+footer .social {
+  display: flex;
+  font-size: 1.35rem;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+footer .social a {
+  color: #8d8d8d;
+  margin-right: 10px;
+}
+footer .social a:hover {
+  opacity: 0.8;
+}
+footer .social a:last-child {
+  margin-right: 0;
+}
 @media (max-width: 1650px) {
   .frame {
     max-width: 1300px;
+  }
+  .frame .left_menu {
+    margin-right: 80px;
   }
 }
 @media (max-width: 1550px) {
   .frame {
     max-width: 1200px;
+  }
+  .frame .left_menu {
+    margin-right: 60px;
+  }
+}
+@media (max-width: 1450px) {
+  .frame {
+    max-width: 1100px;
+  }
+  .frame .left_menu {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 1350px) {
+  .frame {
+    max-width: 1000px;
+  }
+  .frame .left_menu {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1100px) {
+  .frame {
+    flex-wrap: wrap;
+    padding-top: 0;
+    height: auto;
+  }
+  .frame .left_menu {
+    flex: 0 0 100%;
+    margin-right: 0;
+    height: auto;
+    flex-direction: row;
+    padding: 30px 12px;
+    overflow-y: inherit;
+    align-items: center;
+  }
+  .frame .left_menu .logo {
+    max-width: 50px;
+  }
+  .frame .left_menu .nav_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .frame .left_menu .nav {
+    padding-bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #fff;
+    height: calc(100vh - 107px);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition-duration: 0.3s;
+  }
+  .frame .left_menu.active .nav {
+    transform: scaleY(1);
+  }
+  .frame .left_menu .nav a {
+    text-align: center;
+    padding: 20px 0;
+    color: #8d8d8d;
+  }
+  .frame .left_menu .nav a:hover {
+    opacity: 1;
+    color: #000;
+  }
+  .frame .left_menu .bottom {
+    display: none;
+  }
+  .frame .right_frame {
+    flex: 0 0 100%;
+    overflow-y: inherit;
+  }
+  footer {
+    display: block;
   }
 }

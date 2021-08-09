@@ -62,3 +62,8 @@
 .project_list a.item:hover .name{
   text-decoration: underline;
 }
+@media (max-width: 1100px) {
+  .project_list a.item{
+    flex: 0 0 33.33%;
+  }
+}
