@@ -175,7 +175,23 @@ footer .social a:last-child {
     margin-right: 40px;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1250px) {
+  .frame {
+    max-width: 900px;
+  }
+  .frame .left_menu {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 1150px) {
+  .frame {
+    max-width: 800px;
+  }
+  .frame .left_menu {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 900px) {
   .frame {
     flex-wrap: wrap;
     padding-top: 0;
