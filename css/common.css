@@ -97,3 +97,13 @@ img {
   background: #8d8d8d;
   border-radius: 10px;
 }
+@media (max-width: 1650px) {
+  .frame {
+    max-width: 1300px;
+  }
+}
+@media (max-width: 1550px) {
+  .frame {
+    max-width: 1200px;
+  }
+}
