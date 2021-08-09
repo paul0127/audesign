@@ -67,3 +67,8 @@
     flex: 0 0 33.33%;
   }
 }
+@media (max-width: 650px) {
+  .project_list a.item{
+    flex: 0 0 50%;
+  }
+}
