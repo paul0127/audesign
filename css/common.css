@@ -13,6 +13,13 @@ body.fixed {
 img {
   max-width: 100%;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8d8d8d;
+  border-radius: 10px;
+}
 
 .frame {
   max-width: 1515px;
@@ -33,6 +40,9 @@ img {
 }
 .frame .left_menu .logo {
   max-width: 90px;
+}
+.frame .left_menu .logo:hover {
+  opacity: 0.8;
 }
 .frame .left_menu .nav_btn {
   display: none;
