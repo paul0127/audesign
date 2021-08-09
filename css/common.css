@@ -40,6 +40,7 @@ img {
 }
 .frame .left_menu .logo {
   max-width: 90px;
+  margin-bottom: 30px;
 }
 .frame .left_menu .logo:hover {
   opacity: 0.8;
@@ -49,7 +50,7 @@ img {
 }
 .frame .left_menu .nav {
   display: block;
-  padding-bottom: 140px;
+  padding-bottom: 170px;
 }
 .frame .left_menu .nav a {
   display: block;
@@ -178,6 +179,7 @@ footer .social a:last-child {
 @media (max-width: 1250px) {
   .frame {
     max-width: 900px;
+    padding-top: 120px;
   }
   .frame .left_menu {
     margin-right: 30px;
@@ -186,6 +188,7 @@ footer .social a:last-child {
 @media (max-width: 1150px) {
   .frame {
     max-width: 800px;
+    padding-top: 100px;
   }
   .frame .left_menu {
     margin-right: 20px;
@@ -208,6 +211,7 @@ footer .social a:last-child {
   }
   .frame .left_menu .logo {
     max-width: 50px;
+    margin-bottom: 0;
   }
   .frame .left_menu .nav_btn {
     display: flex;
