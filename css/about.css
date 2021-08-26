@@ -16,7 +16,7 @@
 .about_page .top .desc {
   font-size: 1.25rem;
   line-height: 2;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 60px;
   text-align: justify;
 }
@@ -28,6 +28,7 @@
 .about_page .top .kind .kind_name {
   letter-spacing: 3px;
   font-size: 1.25rem;
+  font-weight: 600;
 }
 .about_page .top .kind .kind_ename {
   font-size: 1.2rem;
