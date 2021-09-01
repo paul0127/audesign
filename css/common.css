@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap');
+@import url(./font.css);
 html {
   font-size: 16px;
 }
@@ -55,12 +56,13 @@ img {
 }
 .frame .left_menu .nav a {
   display: block;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   color: #000;
   font-weight: 600;
   padding: 10px 0;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   text-decoration: none;
+  font-family: Minion;
 }
 .frame .left_menu .nav a:hover {
   opacity: 0.8;

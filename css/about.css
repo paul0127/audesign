@@ -9,7 +9,7 @@
 .about_page .top .title {
   color: #8d8d8d;
   font-size: 1.75rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 20px;
   letter-spacing: 3px;
 }
@@ -31,7 +31,7 @@
   font-weight: 600;
 }
 .about_page .top .kind .kind_ename {
-  font-size: 1.2rem;
+  font-size: 1.02rem;
 }
 .about_page .bottom{
   padding-top: 60px;
