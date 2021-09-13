@@ -56,7 +56,7 @@
 }
 .project_list a.item .name{
   font-size: .88rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 .project_list a.item:hover .name{
