@@ -34,21 +34,21 @@
 .about_page .top .kind .kind_ename {
   font-size: 1.02rem;
 }
-.about_page .bottom{
+.about_page .bottom {
   padding-top: 60px;
 }
-.about_page .bottom .title{
+.about_page .bottom .title {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 35px;
   letter-spacing: 5px;
   font-family: Minion;
 }
-.about_page .bottom .info{
+.about_page .bottom .info {
   display: block;
   margin-bottom: 60px;
 }
-.about_page .bottom .info .item{
+.about_page .bottom .info .item {
   display: flex;
   align-items: center;
   font-size: 1.25rem;
@@ -56,12 +56,21 @@
   color: #333;
   font-weight: 400;
 }
-.about_page .bottom .info .item:last-child{
+.about_page .bottom .info .item:last-child {
   margin-bottom: 0;
 }
-.about_page .bottom .info .item i{
+.about_page .bottom .info .item i {
   color: #8d8d8d;
   flex: 0 0 30px;
   font-size: 1.75rem;
   margin-right: 30px;
+}
+.about_page .bottom a.desc {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.about_page .bottom a.desc:hover {
+  opacity: 0.8;
 }
