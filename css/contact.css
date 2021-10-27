@@ -23,6 +23,7 @@
   padding: 10px;
   outline: none;
   font-size: 1.25rem;
+  color: #8d8d8d;
 }
 .contact_page .form .item textarea {
   width: 100%;
@@ -31,10 +32,83 @@
   outline: none;
   font-size: 1.25rem;
   height: 200px;
+  color: #8d8d8d;
+}
+.contact_page .form .item select{
+  width: 100%;
+  padding: 10px;
+  font-size: 1.25rem;
+  outline: none;
+  border: 1px solid #bbb;
+  color: #8d8d8d;
 }
 .contact_page .form .item input[type='text']:focus,
 .contact_page .form .item textarea:focus {
   border-color: #000;
+}
+.contact_page .form .item .opt_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #8d8d8d;
+  font-size: 1.25rem;
+}
+.contact_page .form .item .opt_list input[type='radio'],
+.contact_page .form .item .opt_list input[type='checkbox'] {
+  display: none;
+}
+.contact_page .form .item .opt_list label {
+  margin-bottom: 0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.contact_page .form .item .opt_list label .circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #8d8d8d;
+  border-radius: 100%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_page
+  .form
+  .item
+  .opt_list
+  input[type='radio']:checked
+  + label
+  .circle::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #8d8d8d;
+  border-radius: 100%;
+}
+.contact_page .form .item .opt_list label .square {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #8d8d8d;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_page
+  .form
+  .item
+  .opt_list
+  input[type='checkbox']:checked
+  + label
+  .square::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #8d8d8d;
+  border-radius: 3px;
 }
 .contact_page .form button {
   outline: none;

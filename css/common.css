@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
   position: relative;
-  font-family: 'Noto Sans TC', serif;
+  font-family: 'Minion','Noto Sans TC', serif;
   letter-spacing: 2px;
 }
 body.fixed {
