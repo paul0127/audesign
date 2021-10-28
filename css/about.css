@@ -4,7 +4,7 @@
   max-width: 1075px;
 }
 .about_page .top {
-  border-bottom: 1px solid #8d8d8d;
+  padding-bottom: 60px;
 }
 .about_page .top .title {
   color: #8d8d8d;
@@ -14,28 +14,28 @@
   letter-spacing: 5px;
   font-family: Minion;
 }
-.about_page .top .desc {
+.editor_desc {
   font-size: 1.25rem;
   line-height: 2;
   font-weight: 400;
   margin-bottom: 60px;
   text-align: justify;
 }
-.about_page .top .kind {
+.editor_kind {
   color: #a9a6a6;
   line-height: 2;
-  margin-bottom: 60px;
 }
-.about_page .top .kind .kind_name {
+.editor_kind .kind_name {
   letter-spacing: 3px;
   font-size: 1.25rem;
   font-weight: 400;
 }
-.about_page .top .kind .kind_ename {
+.editor_kind .kind_ename {
   font-size: 1.02rem;
 }
 .about_page .bottom {
   padding-top: 60px;
+  border-top: 1px solid #8d8d8d;
 }
 .about_page .bottom .title {
   font-size: 1.5rem;
