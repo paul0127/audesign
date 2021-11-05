@@ -34,7 +34,7 @@
   height: 200px;
   color: #8d8d8d;
 }
-.contact_page .form .item select{
+.contact_page .form .item select {
   width: 100%;
   padding: 10px;
   font-size: 1.25rem;
@@ -130,4 +130,38 @@
   font-size: 1.4rem;
   font-family: Minion;
   font-weight: 600;
+}
+@media (max-width: 900px) {
+  .contact_page .form {
+    margin-bottom: 60px;
+  }
+  .contact_page .form .logo {
+    margin-bottom: 60px;
+  }
+  .contact_page .form .logo img {
+    width: 180px;
+  }
+  .contact_page .form .item {
+    margin-bottom: 20px;
+  }
+  .contact_page .form .item .name {
+    font-size: 1rem;
+  }
+  .contact_page .form .item input[type='text'],
+  .contact_page .form .item textarea {
+    font-size: 1rem;
+    padding: 7px 10px;
+  }
+  .contact_page .form .item .opt_list {
+    font-size: 1rem;
+  }
+  .contact_page .form .item select {
+    font-size: 1rem;
+  }
+  .contact_page .bottom {
+    font-size: 1rem;
+  }
+  .contact_page .bottom .desc {
+    font-size: 1.25rem;
+  }
 }
