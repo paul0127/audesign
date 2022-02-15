@@ -74,6 +74,17 @@
 .about_page .bottom a.desc:hover {
   opacity: 0.8;
 }
+@media (max-width: 1450px) {
+  .about_page .top .title{
+    font-size: 1.5rem;
+  }
+  .editor_desc{
+    font-size: 1.15rem;
+  }
+  .editor_kind .kind_name{
+    font-size: 1.15rem;
+  }
+}
 @media (max-width: 1100px) {
   .about_page .top {
     padding-bottom: 40px;

@@ -131,6 +131,14 @@
   font-family: Minion;
   font-weight: 600;
 }
+@media (max-width: 1450px) {
+  .contact_page .form .item .name{
+    font-size: 1.15rem;
+  }
+  .contact_page .form .item input[type='text'],.contact_page .form .item textarea{
+    font-size: 1.15rem;
+  }
+}
 @media (max-width: 1100px) {
   .contact_page .form {
     margin-bottom: 60px;
