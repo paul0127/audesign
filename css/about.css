@@ -74,7 +74,7 @@
 .about_page .bottom a.desc:hover {
   opacity: 0.8;
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .about_page .top {
     padding-bottom: 40px;
   }
