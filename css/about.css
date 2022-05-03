@@ -85,6 +85,47 @@
     font-size: 1.15rem;
   }
 }
+@media (max-width: 1400px) {
+  .about_page .top{
+    padding-bottom: 40px;
+  }
+  .about_page .top .title{
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  .editor_desc{
+    font-size: 1rem;
+    margin-bottom: 45px;
+  }
+  .editor_kind .kind_name{
+    font-size: 1rem;
+  }
+  .editor_kind .kind_ename{
+    font-size: 1rem;
+  }
+  .about_page .bottom{
+    padding-top: 45px;
+  }
+  .about_page .bottom .title{
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .about_page .bottom .info{
+    margin-bottom: 40px;
+  }
+  .about_page .bottom .info .item{
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .about_page .bottom .info .item i{
+    flex: 0 0 25px;
+    font-size: 1.5rem;
+    margin-right: 15px;
+  }
+  .about_page .bottom a.desc{
+    font-size: .75rem;
+  }
+}
 @media (max-width: 1100px) {
   .about_page .top {
     padding-bottom: 40px;

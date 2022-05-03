@@ -1,18 +1,18 @@
 @import url(./common.css);
 
-.project_list{
+.project_list {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.project_list a.item{
+.project_list a.item {
   flex: 0 0 25%;
   padding: 0 12px;
   margin-bottom: 20px;
   text-decoration: none;
   color: #000;
 }
-.project_list a.item .img{
+.project_list a.item .img {
   width: 100%;
   padding-bottom: 100%;
   background-size: cover;
@@ -20,7 +20,7 @@
   margin-bottom: 10px;
   position: relative;
 }
-.project_list a.item .img::before{
+.project_list a.item .img::before {
   content: '';
   position: absolute;
   left: 0;
@@ -30,9 +30,9 @@
   position: absolute;
   background-color: #000;
   opacity: 0;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
-.project_list a.item .img::after{
+.project_list a.item .img::after {
   content: '';
   position: absolute;
   top: 0;
@@ -43,32 +43,37 @@
   background-size: 25%;
   background-repeat: no-repeat;
   background-position: center;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
   opacity: 0;
   transform: translateY(-10px);
 }
-.project_list a.item:hover .img::before{
-  opacity: .3;
+.project_list a.item:hover .img::before {
+  opacity: 0.3;
 }
-.project_list a.item:hover .img::after{
+.project_list a.item:hover .img::after {
   opacity: 1;
   transform: translateY(0);
 }
-.project_list a.item .name{
-  font-size: .88rem;
+.project_list a.item .name {
+  font-size: 0.88rem;
   font-weight: 400;
   letter-spacing: 2px;
 }
-.project_list a.item:hover .name{
+.project_list a.item:hover .name {
   text-decoration: underline;
 }
+@media (max-width: 1400px) {
+  .project_list a.item .name {
+    font-size: 0.75rem;
+  }
+}
 @media (max-width: 1150px) {
-  .project_list a.item{
+  .project_list a.item {
     flex: 0 0 33.33%;
   }
 }
 @media (max-width: 650px) {
-  .project_list a.item{
+  .project_list a.item {
     flex: 0 0 50%;
   }
 }
